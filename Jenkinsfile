@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout code') {
       steps {
-        git(url: 'https://github.com/yogeshvari08/diabetes-prediction-using-machine-learning', branch: 'dev')
+        git(url: 'https://github.com/yogeshvari08', branch: 'dev')
       }
     }
 
